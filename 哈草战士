@@ -1,0 +1,17 @@
+# x = 11
+# listz = [7, 4, 6]
+def function(x, list):
+    listz.sort()
+    num = 0
+    if x < min(listz):
+        print 0
+    else:
+        for i in listz:
+            if x > i:
+                x -= i
+                num += 1
+        print num
+
+            
+function(x, list)
+
